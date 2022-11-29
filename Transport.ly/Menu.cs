@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Transport.ly
+{
+    class Menu
+    {
+        public string Header { get; set; }
+        public IList<string> Items { get; set; }
+        public int ExitValue { get; set; }
+
+        public Menu()
+        {
+            Items = new List<string>();
+        }
+    }
+}
